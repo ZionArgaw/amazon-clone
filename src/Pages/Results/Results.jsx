@@ -8,7 +8,7 @@ import ProductCard from "../../Components/Product/ProductCard";
 import Loader from "../../Components/Loader/Loader";
 function Results() {
   const [results, setResults] = useState([]);
-  const [isLoading, setIsLoading] = useState(false)
+  
   const { catagoryName } = useParams();
   useEffect(() => {
     axios
